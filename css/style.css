@@ -70,7 +70,8 @@ header .tel {
 }
 /*電話番号ボックス内の「TEL」部分の設定*/
 header .tel .bg1 {
-	background: #e58d38;	/*背景色*/
+	/*background: #e58d38;	/*背景色*/
+	background-image: repeating-linear-gradient(#e58d38 20%,#e56938 80%);
 	color: #fff;			/*文字色*/
 	/* padding: 2px 8px; */
 	padding: 2px 8px;
@@ -112,9 +113,11 @@ header .tel a {
 ---------------------------------------------------------------------------*/
 /*メニューブロックの設定*/
 #menubar {
-	background: #e58d38;	/*背景色*/
+	/*background: #e58d38;	背景色*/
+	background-image: repeating-linear-gradient(#e58d38 20%,#e56938 80%);
+	/* background-image:linear-gradient(to right, #e58d38 30%,#e53838 30%,blue 40%) */
 	/* background-color:rgba(e5,8d,38,0.8); */
-	/* opacity:0.9; */
+	opacity:0.9;
 	overflow: hidden;
 }
 /*メニュー１個あたりの設定*/
@@ -176,7 +179,8 @@ header .tel a {
 	clear: both;
 	margin-bottom: 20px;
 	padding: 8px 20px;	/*上下、左右への余白*/
-	background: #e58d38;	/*背景色*/
+	/*background: #e58d38;	/*背景色*/
+	background-image: repeating-linear-gradient(#e58d38 20%,#e56938 80%);
 	color: #fff;	/*文字色*/
 }
 #main h2::first-letter {
@@ -410,7 +414,8 @@ padding-left: 10px;
 	color: #FFF;		/*文字色*/
 	font-size: 20px;	/*文字サイズ*/
 	padding: 0px 30px;	/*上下、左右へのボックス内余白*/
-	background: #e58d38;	/*背景色*/
+	/*background: #e58d38;	/*背景色*/
+	background-image: repeating-linear-gradient(#e58d38 20%,#e56938 80%);
 	border-radius: 4px 4px 0px 0px;	/*角丸のサイズ。左上、右上、右下、左下。*/
 }
 /*マウスオン時*/
@@ -423,7 +428,8 @@ padding-left: 10px;
 ---------------------------------------------------------------------------*/
 footer {
 	clear: both;
-	background: #e58d38;	/*背景色*/
+	/*background: #e58d38;	/*背景色*/
+	background-image: repeating-linear-gradient(#e58d38 20%,#e56938 80%);
 	color: #fff;			/*文字色*/
 	text-align: center;
 }
@@ -450,7 +456,7 @@ footer .pr {
 }
 /*日付設定*/
 #new dt {
-	font-weight: bold;	/*太字にする設定。標準がいいならこの行削除。*/
+	/*font-weight: bold;	/*太字にする設定。標準がいいならこの行削除。*/
 	float: left;
 	width: 8em;
 }
@@ -716,6 +722,8 @@ ul.disc {padding: 0em 25px 1em;list-style: disc;}
 ---------------------------------------------------------------------------*/
 section#new h2.open {
 	background: #be6e21 url(../images/btn_minus.png) no-repeat right center/34px 34px;
+	/* background: url(../images/btn_minus.png) no-repeat right center/34px 34px; */
+	/* background-image: repeating-linear-gradient(#e58d38 20%,#e56938 80%); */
 }
 section#new h2.close {
 	background: #be6e21 url(../images/btn_plus.png) no-repeat right center/34px 34px;
