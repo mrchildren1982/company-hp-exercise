@@ -46,6 +46,7 @@ header .inner {
 	height: 150px;	/*ヘッダーの高さ*/
 	position: relative;
 }
+
 /*ロゴ画像*/
 #logo img {
 	width: 150px;	/*画像幅
