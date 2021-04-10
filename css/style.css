@@ -48,15 +48,6 @@ header .inner {
 }
 
 /*ロゴ画像*/
-/* #logo img { */
-/*	width: 150px;	/*画像幅
-	width: 100px;	/*画像幅*/
-	/* height: 150px; */
-	/* position: absolute; */
-/*	left: 2%;	/*左から3%の場所に配置*/
-	/*top: 32px;	/*上から32pxの場所に配置*/
-/* } */
-
 header #logo {
 	width: 400px;	/*ロゴの幅*/
 	position: absolute;
@@ -82,9 +73,9 @@ header .tel .bg1 {
 	background-image: repeating-linear-gradient(#e58d38 20%,#e56938 80%);
 	color: #fff;			/*文字色*/
 	/* padding: 2px 8px; */
-	padding: 2px 8px;
-	margin-right: 10px;
-	border-radius: 4px;
+	padding: 1px 8px;
+	margin-right: 1px;
+	border-radius: 1px;
 	letter-spacing: normal;
 }
 /*電話番号ボックス内の小文字部分の設定*/
@@ -662,13 +653,23 @@ ul.disc {padding: 0em 25px 1em;list-style: disc;}
 #h-nav {
 	right: 20%;	/*右から20%の場所に配置*/
 }
+/* header .tel {
+	display:flex ;
+} */
+
+/* .logo {
+    float: left;
+ } */
+.tel {
+    /* float: right;  */
+	right: 20%;	/*右から20%の場所に配置*/
+}
 
 /*メインメニュー
 ---------------------------------------------------------------------------*/
 /*メニューブロックの設定*/
 #menubar-s {
 	display: block;	/*小さい端末用(画面幅800px以下)メニューを非表示から表示に切り替える*/
-	/* background: #be6e21; */
 	background-image: repeating-linear-gradient(#e58d38 20%,#e56938 80%);
 	overflow: hidden;
 }
@@ -706,6 +707,8 @@ ul.disc {padding: 0em 25px 1em;list-style: disc;}
 	width: 30px;	/*幅*/
 	border: 1px solid #fff;	/*枠線の幅、線種、色*/
 	padding: 12px 10px 5px;	/*上、左右、下へのボックス内余白*/
+	/* background:#be6e21; */
+	background-image: repeating-linear-gradient(#e58d38 20%,#e56938 80%);
 }
 #top #menubar_hdr {
 	border: 1px solid #fff;	/*トップページでの枠線の幅、線種、色*/
@@ -730,7 +733,9 @@ ul.disc {padding: 0em 25px 1em;list-style: disc;}
 /*トップページ内「更新情報・お知らせ」ブロック
 ---------------------------------------------------------------------------*/
 section#new h2.open {
+	/* background-image: repeating-linear-gradient(#e58d38 20%,#e56938 80%); */
 	background: #be6e21 url(../images/btn_minus.png) no-repeat right center/34px 34px;
+	/* background: #be6e21 url(../images/btn_minus.png) no-repeat right center/34px 34px; */
 	/* background: url(../images/btn_minus.png) no-repeat right center/34px 34px; */
 	/* background-image: repeating-linear-gradient(#e58d38 20%,#e56938 80%); */
 }
@@ -758,7 +763,6 @@ body.s-n #sub {display: none;}
 	top: 38px;	/*上から38pxの場所に配置*/
 }
 
-}
 
 
 
@@ -777,6 +781,14 @@ body.s-n #sub {display: none;}
 #h-nav {
 	left: 0px;	/*左から0pxの場所に配置*/
 	top: 55px;	/*上から55pxの場所に配置*/
+}
+tel {
+	left: 0px;	/*左から0pxの場所に配置*/
+	top: 55px;	/*上から55pxの場所に配置*/
+}
+.mini1 {
+	left: 0px;	/*左から0pxの場所に配置*/
+	top: 1000px;	/*上から55pxの場所に配置*/
 }
 
 /*メインメニュー
@@ -833,4 +845,3 @@ body.s-n #sub {display: none;}
 .sh {display: block;}
 .pc {display: none;}
 
-}
