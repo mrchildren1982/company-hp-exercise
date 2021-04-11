@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+
 
 
 /*PC・タブレット・スマホ共通設定
@@ -10,7 +12,8 @@
 body {
 	margin: 0px;padding: 0px;
 	color: #666;	/*全体の文字色*/
-	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
+	/*font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
+	font-family: 'Noto Serif JP', sans-serif;
 	font-size: 15px;	/*文字サイズ*/
 	line-height: 2;		/*行間*/
 	-webkit-text-size-adjust: none;
@@ -39,12 +42,16 @@ a:hover {
 ---------------------------------------------------------------------------*/
 header {
 	/*background: #e58d38;	/*背景色*/
-	background:#fff
+	background:#fff;
+	/* display:flex; */
+	/* flex-direction: column; */
+	/* flex-wrap: wrap; */
 }
 header .inner {
 	/*height: 100px;	/*ヘッダーの高さ*/
 	height: 150px;	/*ヘッダーの高さ*/
 	position: relative;
+	/* display:flex; */
 }
 
 /*ロゴ画像*/
@@ -52,7 +59,15 @@ header #logo {
 	width: 400px;	/*ロゴの幅*/
 	position: absolute;
 	left: 20px;	/*innerに対して左から20pxの場所に配置*/
-	top: 20px;	/*innerに対して上から20pxの場所に配置*/
+	/*top: 20px;	/*innerに対して上から20pxの場所に配置*/
+	top:30px;
+}
+
+#catch_copy {
+	font-size:13px;
+	padding-left:20px;
+	font-weight: bold;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
 }
 
 /*電話番号ボックス全体の設定*/
@@ -66,6 +81,7 @@ header .tel {
 	line-height: 1.2;	/*行間をデフォルトより少し狭くする*/
 	letter-spacing: 0.2em;	/*文字間隔を少し広くとる設定*/
 	padding: 30px 30px;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
 }
 /*電話番号ボックス内の「TEL」部分の設定*/
 header .tel .bg1 {
@@ -81,6 +97,7 @@ header .tel .bg1 {
 /*電話番号ボックス内の小文字部分の設定*/
 header .tel span {
 	color: #666;
+	/*font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
 }
 /*電話番号に自動リンクが貼られる環境用（タブレットやスマートフォンなど）の設定*/
 header .tel a {
@@ -114,7 +131,8 @@ header .tel a {
 #menubar {
 	/*background: #e58d38;	背景色*/
 	background-image: repeating-linear-gradient(#e58d38 20%,#e56938 80%);
-	/* background-image:linear-gradient(to right, #e58d38 30%,#e53838 30%,blue 40%) */
+	/* background-image: repeating-radial-gradient(circle,closest-side,#e56938 0px,#e56938 20px); */
+
 	/* background-color:rgba(e5,8d,38,0.8); */
 	opacity:0.9;
 	overflow: hidden;
@@ -472,7 +490,9 @@ footer .pr {
 }
 /*質問の設定*/
 .faq dt {
-	color: #be6e21;	/*文字色*/
+	/*color: #be6e21;	/*文字色*/
+	color:#000;
+	/*font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
 	/*color: rgba(20, 20, 20, 0.705);	/*文字色*/
 	font-weight: bold;	/*太字*/
 	padding-top: 15px;
@@ -663,6 +683,7 @@ ul.disc {padding: 0em 25px 1em;list-style: disc;}
 .tel {
     /* float: right;  */
 	right: 20%;	/*右から20%の場所に配置*/
+	display: none;
 }
 
 /*メインメニュー
