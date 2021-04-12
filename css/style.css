@@ -686,6 +686,13 @@ ul.disc {padding: 0em 25px 1em;list-style: disc;}
 	display: none;
 }
 
+#catch_copy {
+	font-size:10px;
+	padding-left:20px;
+	font-weight: bold;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
+}
+
 /*メインメニュー
 ---------------------------------------------------------------------------*/
 /*メニューブロックの設定*/
@@ -806,6 +813,11 @@ body.s-n #sub {display: none;}
 tel {
 	left: 0px;	/*左から0pxの場所に配置*/
 	top: 55px;	/*上から55pxの場所に配置*/
+	
+}
+
+.tel {
+	display: none;
 }
 .mini1 {
 	left: 0px;	/*左から0pxの場所に配置*/
