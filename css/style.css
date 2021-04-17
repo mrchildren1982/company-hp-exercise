@@ -63,6 +63,10 @@ header #logo {
 	top:30px;
 }
 
+header #logo:hover {
+	opacity:.6;
+}
+
 #catch_copy {
 	font-size:13px;
 	padding-left:20px;
@@ -86,8 +90,8 @@ header .tel {
 }
 /*電話番号ボックス内の「TEL」部分の設定*/
 header .tel .bg1 {
-	/*background: #e58d38;	/*背景色*/
-	background-image: repeating-linear-gradient(#e58d38 20%,#e56938 80%);
+	background: #e58d38;	/*背景色*/
+	/* background-image: repeating-linear-gradient(#e58d38 20%,#e56938 80%); */
 	color: #fff;			/*文字色*/
 	/* padding: 2px 10px; */
 	padding: 1px 8px;
@@ -130,8 +134,8 @@ header .tel a {
 ---------------------------------------------------------------------------*/
 /*メニューブロックの設定*/
 #menubar {
-	/*background: #e58d38;	背景色*/
-	background-image: repeating-linear-gradient(#e58d38 20%,#e56938 80%);
+	background: #e58d38;
+	/* background-image: repeating-linear-gradient(#e58d38 20%,#e56938 80%); */
 	/* background-image: repeating-radial-gradient(circle,closest-side,#e56938 0px,#e56938 20px); */
 
 	/* background-color:rgba(e5,8d,38,0.8); */
@@ -197,8 +201,8 @@ header .tel a {
 	clear: both;
 	margin-bottom: 20px;
 	padding: 8px 20px;	/*上下、左右への余白*/
-	/*background: #e58d38;	/*背景色*/
-	background-image: repeating-linear-gradient(#e58d38 20%,#e56938 80%);
+	background: #e58d38;	/*背景色*/
+	/* background-image: repeating-linear-gradient(#e58d38 20%,#e56938 80%); */
 	color: #fff;	/*文字色*/
 }
 #main h2::first-letter {
@@ -246,6 +250,14 @@ padding-left: 10px;
 .list img.img {
 	float: left;
 	width: 25%;	/*画像の幅。ここを変更する場合は、下の.list .textのmargin-leftの数字も調整する。*/
+}
+
+.list img:hover {
+	opacity:0.6;
+}
+
+.list .setsumei:hover {
+	opacity:0.6;
 }
 /*右側のテキスト欄*/
 .list .text {
@@ -432,8 +444,8 @@ padding-left: 10px;
 	color: #FFF;		/*文字色*/
 	font-size: 20px;	/*文字サイズ*/
 	padding: 0px 30px;	/*上下、左右へのボックス内余白*/
-	/*background: #e58d38;	/*背景色*/
-	background-image: repeating-linear-gradient(#e58d38 20%,#e56938 80%);
+	background: #e58d38;	/*背景色*/
+	/* background-image: repeating-linear-gradient(#e58d38 20%,#e56938 80%); */
 	border-radius: 4px 4px 0px 0px;	/*角丸のサイズ。左上、右上、右下、左下。*/
 }
 /*マウスオン時*/
@@ -446,8 +458,8 @@ padding-left: 10px;
 ---------------------------------------------------------------------------*/
 footer {
 	clear: both;
-	/*background: #e58d38;	/*背景色*/
-	background-image: repeating-linear-gradient(#e58d38 20%,#e56938 80%);
+	background: #e58d38;	/*背景色*/
+	/* background-image: repeating-linear-gradient(#e58d38 20%,#e56938 80%); */
 	color: #fff;			/*文字色*/
 	text-align: center;
 }
@@ -712,7 +724,8 @@ ul.disc {padding: 0em 25px 1em;list-style: disc;}
 /*メニューブロックの設定*/
 #menubar-s {
 	display: block;	/*小さい端末用(画面幅800px以下)メニューを非表示から表示に切り替える*/
-	background-image: repeating-linear-gradient(#e58d38 20%,#e56938 80%);
+	background-color: #e58d38;
+	/* background-image: repeating-linear-gradient(#e58d38 20%,#e56938 80%); */
 	overflow: hidden;
 }
 /*メニュー１個あたりの設定*/
@@ -749,8 +762,8 @@ ul.disc {padding: 0em 25px 1em;list-style: disc;}
 	width: 30px;	/*幅*/
 	border: 1px solid #fff;	/*枠線の幅、線種、色*/
 	padding: 12px 10px 5px;	/*上、左右、下へのボックス内余白*/
-	/* background:#be6e21; */
-	background-image: repeating-linear-gradient(#e58d38 20%,#e56938 80%);
+	background:#e58d38;
+	/* background-image: repeating-linear-gradient(#e58d38 20%,#e56938 80%); */
 }
 #top #menubar_hdr {
 	border: 1px solid #fff;	/*トップページでの枠線の幅、線種、色*/
@@ -775,11 +788,11 @@ ul.disc {padding: 0em 25px 1em;list-style: disc;}
 /*トップページ内「更新情報・お知らせ」ブロック
 ---------------------------------------------------------------------------*/
 section#new h2.open {
-	background: #be6e21 url(../images/btn_minus.png) no-repeat right center/34px 34px;
-	background-image: repeating-linear-gradient(#e58d38 20%,#e56938 80%);
+	background: #e58d38 url(../images/btn_minus.png) no-repeat right center/34px 34px;
+	/* background-image: repeating-linear-gradient(#e58d38 20%,#e56938 80%); */
 }
 section#new h2.close {
-	background: #be6821 url(../images/btn_plus.png) no-repeat right center/34px 34px;
+	background: #e58d38 url(../images/btn_plus.png) no-repeat right center/34px 34px;
 	/* background-image: repeating-linear-gradient(#e58d38 20%,#e56938 80%); */
 		/* background-image: url(../images/btn_plus.png) repeating-linear-gradient(#e58d38 20%,#e56938 80%); */
 }
