@@ -595,6 +595,10 @@ h2 span.option2 {
 	width: 100%;
 }
 
+.required{
+	color:red;
+}
+
 /*トップページのNEWアイコン
 ---------------------------------------------------------------------------*/
 .newicon {
@@ -793,6 +797,7 @@ section#new h2.open {
 }
 section#new h2.close {
 	background: #e58d38 url(../images/btn_plus.png) no-repeat right center/34px 34px;
+	/* box-shadow:0 0 8px rgba(0,0,0,0.5); */
 	/* background-image: repeating-linear-gradient(#e58d38 20%,#e56938 80%); */
 		/* background-image: url(../images/btn_plus.png) repeating-linear-gradient(#e58d38 20%,#e56938 80%); */
 }
