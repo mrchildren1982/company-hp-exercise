@@ -391,11 +391,31 @@ padding-left: 10px;
 #sub h2.bg2 {
 	background: #fff url(../images/bg2.png) no-repeat right center;	/*背景色、背景画像読み込み、rightは右寄せ、center上下の中央という意味*/
 }
+
+/*bg-contact背景（グリーン）*/
+#sub h2.bg-contact {
+	/* margin-top:25px; */
+	background-color:#fff;
+	/*background: #fff url(../images/kpaint_right.png) no-repeat right center;	背景色、背景画像読み込み、rightは右寄せ、center上下の中央という意味*/
+}
 /*subコンテンツ内のpタグ設定*/
 #sub p {
 	padding: 15px;
 }
 
+.list_row li {
+	float: left;
+}
+
+#mrchildkun {
+	margin:1px auto;
+	height: 300px;
+	width: 300px;
+}
+
+.paint_work_back {
+	clear:left;
+}
 /*サブコンテンツ内のメニュー
 ---------------------------------------------------------------------------*/
 /*メニュー全体の設定*/
@@ -599,6 +619,19 @@ h2 span.option2 {
 	color:red;
 }
 
+.inq_title {
+	/* display: block; */
+
+	font-size:20px;
+	
+ } 
+/* 
+ .inq {
+	display:inline;
+	height: 100px;
+	width:100px;
+	float: left;
+} */
 /*トップページのNEWアイコン
 ---------------------------------------------------------------------------*/
 .newicon {
