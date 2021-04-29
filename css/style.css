@@ -135,10 +135,14 @@ header .tel:hover {
 	border-radius: 4px;	/*角丸のサイズ。50%にすると正円になる。*/
 }
 
-.twitter-share-button {
-	/* margin: 0 auto;  */
-	/* width:100%; */
-	padding-left:10px;
+.share {
+	display:flex;
+	/* float:left; */
+	margin-left:5px;
+	margin-bottom:5px;
+}
+.share-button {
+	padding-left:5px;
 }
 
 /*メインメニュー
