@@ -107,8 +107,12 @@ header .tel span {
 }
 /*電話番号に自動リンクが貼られる環境用（タブレットやスマートフォンなど）の設定*/
 header .tel a {
-	color: #f28900;		/*文字色*/
+	color: #000;	
 	text-decoration: none;
+}
+
+header .tel:hover {
+	opacity:.6;
 }
 
 /*ヘッダー右側のアイコン類*/
@@ -236,6 +240,16 @@ padding-left: 10px;
 #main h2 + p,
 #main h3 + p {
 	margin-top: -10px;
+}
+/* 
+.top-company {
+	display:inline;
+	float:left;
+} */
+
+.top-company-info {
+	display: inline;
+	float:left;
 }
 
 /*SERVICEページ
@@ -414,11 +428,19 @@ padding-left: 10px;
 	float: left;
 }
 
+/* #my_facebook { */
+	/* float: left;	左に回り込み */
+	/* width: 24%;		 */
+	/* width:120%; */
+	/* background: #fff;	背景色 */
+/* } */
+
 #mrchildkun {
 	margin:1px auto;
 	height: 300px;
 	width: 300px;
 }
+
 
 .kojichu {
 	/* display: inline;
@@ -429,6 +451,13 @@ padding-left: 10px;
 
 	height: 150px;
 	width: 150px;
+
+
+}
+
+.kojichu:hover {
+	transform:scale(1.2);
+	transition-duration: 0.3s;
 }
 
 .paint_work_back {
@@ -513,6 +542,13 @@ footer .pr {
 	font-size: 80%;
 }
 
+.footer_nav li {
+	display:inline;
+}
+
+.footer_nav li:hover{
+	opacity:.6;
+}
 /*トップページ内「更新情報・お知らせ」ブロック
 ---------------------------------------------------------------------------*/
 /*ブロック全体の設定*/
@@ -705,6 +741,11 @@ ul.disc {padding: 0em 25px 1em;list-style: disc;}
 .phone {
 	display:none;
 }
+#shita {
+	display:none;
+}
+
+
 }
 
 
@@ -733,7 +774,9 @@ ul.disc {padding: 0em 25px 1em;list-style: disc;}
 .phone {
 	display:none;
 }
-
+#shita {
+	display:none;
+}
 }
 
 
@@ -752,6 +795,10 @@ ul.disc {padding: 0em 25px 1em;list-style: disc;}
 	display:flex ;
 } */
 
+
+#left {
+	display:none;
+}
 /* .logo {
     float: left;
  } */
@@ -776,6 +823,16 @@ ul.disc {padding: 0em 25px 1em;list-style: disc;}
 	font-weight: bold;
 	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
 }
+
+.fb-page{
+	display:none;
+}
+
+#fb-page-img {
+	display:none;
+}
+
+
 
 /*メインメニュー
 ---------------------------------------------------------------------------*/
@@ -860,6 +917,10 @@ section#new h2.close {
 ---------------------------------------------------------------------------*/
 body.s-n #sub {display: none;}
 
+.footer_nav li {
+	display:none;
+}
+
 }
 
 
@@ -875,8 +936,6 @@ body.s-n #sub {display: none;}
 	width: 200px;	/*画像幅*/
 	top: 38px;	/*上から38pxの場所に配置*/
 }
-
-
 
 .phone {
 	display:none;
@@ -956,8 +1015,13 @@ tel {
 	height: auto;
 }
 
+.fb-page{
+	display:none;
+}
 
-
+#fb-page-img {
+	display:none;
+}
 /*---------- SP電話ボタン ----------*/
 
 .phone {

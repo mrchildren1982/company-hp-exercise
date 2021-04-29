@@ -30,21 +30,10 @@ body.is-fixed #contents {padding-top: 0;}
 
 <header>
 <div class="inner">
-<!-- <h1 id="logo"><a href="index.html"><img id="header-img" src="images/logo.png" alt="kpaint"></a></h1>
-<p class="tel"><span class="bg1">TEL</span>	090-1234-5678<br>
-<span class="mini1">受付：9:00～18:00　土日祝休</span></p>
-<ul id="h-nav">
-<li><a href="https://twitter.com/home?lang=ja"><img src="images/icon_twitter.png" alt=""></a></li>
-<li><a href="#"><img src="images/icon_facebook.png" alt=""></a></li>
-</ul>  -->
 <h2 id="catch_copy">会社概要 | 外壁塗装・屋根塗装は(株)kpaintにおまかせ!</h2>
 <h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="kpaint"></a></h1>
-<!-- <ul id="h-nav">
-<li><a href="https://twitter.com/home?lang=ja"><img src="images/icon_twitter.png" alt="twitter"></a></li>
-<li><a href="#"><img src="images/icon_facebook.png" alt=""></a></li>
-</ul> -->
-<p class="tel"><span class="bg1">TEL</span>	090-1234-5678<br>
-	<span class="mini1">受付：9:00～18:00　土日祝休</span></p>
+<p class="tel"><a href="contact.html"><span class="bg1">TEL</span>	090-1234-5678<br>
+	<span class="mini1">受付：9:00～18:00　土日祝休</span></a></p>
 </div>
 </header>
 
@@ -63,13 +52,6 @@ body.is-fixed #contents {padding-top: 0;}
 </ul>
 </nav>
 </div>
-
-<!-- <aside id="mainimg">
-	<img src="images/9.jpg" alt="" id="slide0">
-	<img src="images/9.jpg" alt="" id="slide1">
-	<img src="images/10.jpg" alt="" id="slide2">
-	<img src="images/11.jpg" alt="" id="slide3">
-</aside> -->
 
 <!--小さな端末用（900px以下端末）メニュー-->
 <nav id="menubar-s">
@@ -131,78 +113,9 @@ body.is-fixed #contents {padding-top: 0;}
 
 </section>
 
-<!-- <section id="about">
-
-<h2>当テンプレートについて</h2>
-
-<h3>画像ベースは</h3>
-<p>「base」フォルダに入っていますのでご自由にご活用下さい。<br>
-写真の元素材を当社運営の<a href="http://photo-chips.com/">PHOTO-CHIPS</a>や<a href="http://decoruto.com/">DECORUTO</a>で配布している場合もございます。</p>
-
-</section> -->
 
 <!-- <section> -->
 
-<!-- <h2>当テンプレートの使い方</h2> -->
-
-　
-<!-- 
-<h3>上部のロゴ画像について</h3>
-<p>文字なしの土台画像がbaseフォルダに入っていますのでそれにサイト名をのせてimagesフォルダに上書きして下さい。画像の大きさは自由に変更してもらっても構いませんがある程度大きくしておいた方が高解像度の端末で鮮明に見えます。</p>
-<p><strong class="color1">■ロゴサイズ変更は</strong><br>
-cssフォルダのstyle.cssの「#logo img」のwidthの数字で変更できます。各端末サイズごとに設定がある場合があるので注意して下さい。</p> -->
-<!-- 
-<h3>上部のメインメニューの動作について</h3>
-<p>メインメニューは画面上部に到達した際に固定表示（IE9以上）されます。通常通りスクロールさせたい場合は、htmlの上の方にある<br>
-<span class="color1">&lt;link rel=&quot;stylesheet&quot; href=&quot;css/fixmenu.css&quot;&gt;<br>
-&lt;script type=&quot;text/javascript&quot; src=&quot;js/fixmenu.js&quot;&gt;&lt;/script&gt;</span><br>
-の２行を削除してください。</p>
-<p>※IE8以下は問題がでる為、通常スクロールになるようhtml上部で直接指定（&lt;style&gt;〜&lt;/style&gt;内で）しています。</p>
-
-<h3>上部のメインメニュー数を現状より追加する場合の注意点</h3>
-<p>メニューを増やした場合、ウィンドウを狭くしていく途中でメニューが段落ちする場合があります。<br>
-例えば、幅1100pxほどでメニューが段落ちしてしまう場合、cssフォルダのstyle.cssの冒頭の共通設定に、</p>
-<p class="color1">#container {<br>
-	min-width: 1150px;<br>
-}</p>
-<p>と、段落ちするサイズ＋アルファでサイズ指定(※ブラウザによってフォントが変わるので若干余裕をもった数値です)し、下の方の、</p>
-<p class="color1">@media screen and (max-width:900px){</p>
-<p>の設定内に、</p>
-<p class="color1">#container {<br>
-	min-width: auto;<br>
-}</p>
-<p>を追加して下さい。</p>
-<p>メニューの上部固定(fixmenu)を使っていない場合はメニューをそのまま段落ち表示させる方法がベストなのですが、fixmenuを使う場合はこちらの最小幅(min-width)指定の方法がベストのようです。</p>
-
-<h3>トップページのスライドショーについて</h3>
-<p><strong class="color1">■css3に対応した環境でしか動作しません。</strong><br>
-css3に対応していない古い環境（IEなら8以下）から見た場合、最後の画像のみが固定表示される事になります。</p>
-<p><strong class="color1">■画像を入れ替えたい場合</strong><br>
-「image1.jpg」「image2.jpg」「image3.jpg」の３枚のjpg画像を用意してimagesフォルダに上書きして下さい。大きさはバラバラでも構いませんが、必ず「縦横比」を合わせて下さい。拡張子が「jpeg」や「JPG」と少し違った場合にうまく表示できないブラウザもあるので「jpg」で統一して下さい。「jpg」にできない場合はhtml側の拡張子指定を合わせてもらっても構いません。</p>
-<p><strong class="color1">■１回でループをストップさせたい場合</strong><br>
-現在、無限ループになっていますが１回でストップさせたい場合、cssフォルダのslide.cssの「実行する回数」に指定されている「infinite」を「1」に変更、「@keyframes slide3」の100%の「opacity: 0;」を「opacity: 1;」に変更して下さい。</p>
-<p><strong class="color1">■速度や枚数などの調整</strong><br>
-cssフォルダのslide.cssで行って下さい。解説も入っています。<br>
-<a href="http://template-party.com/tips/tips20160408_css_slide1.html">スライドショーに関する詳しい使い方はこちら。</a></p>
-<p><strong class="color1">■固定画像にしたい場合</strong><br>
-index.htmlのhtmlの上の方にある、<br>
-&lt;link rel=&quot;stylesheet&quot; href=&quot;css/slide.css&quot;&gt;<br>
-の１行を削除。<br>
-画像がすべて表示されるので、使わない画像を削除すればOKです。画像を囲っているasideタグなどはレイアウト設定が入っているので削除しないよう注意して下さい。</p>
-<p><strong class="color1">■その他</strong><br>
-画像の中央下部に現在表示中を示すボタンがついていますが、単に画像にボタンを重ねているだけです。<br>
-スライドショーである点をわかりやすくするために入れているだけで、クリックするとその画像が出るというような動作はしません。</p>
-
-<h3>１カラムレイアウトに簡単にチェンジできます</h3>
-<p><a href="c1.html">c1.htmlをご覧下さい。</a></p>
-
-<h3>スマホなどの小さな端末からボタンクリックでPC画面を表示させたい方へ</h3>
-<p>レスポンシブデザインだと、スマホやタブレットなどの小さな端末から見た場合はそれ専用のレイアウトに変わりますが、あえてPC画面も見せたいユーザーの為に<a href="http://template-party.com/tips/tips20160916viewport.html">tipsを公開</a>しました。</p>
-
-<h3>プレビューでチェックすると警告メッセージが出る場合(一部ブラウザ対象)</h3>
-<p>主にjavascript（jsファイル）ファイルによって出る警告ですが、WEB上では出ません。また、この警告が出ている間は効果を見る事ができないので、警告メッセージ内でクリックして解除してあげて下さい。これにより効果がちゃんと見れるようになります。</p>
-
-</section> -->
 
 </div>
 <!--/main-->
@@ -212,9 +125,9 @@ index.htmlのhtmlの上の方にある、<br>
 <h2 class="bg2">Contents<span>コンテンツ</span></h2>
 <ul class="submenu">
 	<li><a href="#">お客様の声</a></li>
-	<li><a href="#">選ばれる理由</a></li>
+	<li><a href="#">当社のこだわり</a></li>
 	<li><a href="#">ブログ</a></li>
-	<li><a href="#">お問合せからの流れ</a></li>
+	<li><a href="flow.html">お問合せからの流れ</a></li>
 </ul>
 </nav>
 
@@ -234,6 +147,18 @@ index.htmlのhtmlの上の方にある、<br>
 <p id="pagetop"><a href="#">↑</a></p>
 
 <footer>
+	<div class="footer_nav">
+		<ul>
+			<li><a href="index.html">HOME</a> | </li>
+			<li><a href="company.html">会社概要</a> | </li>
+			<li><a href="service.html">業務内容</a> | </li>
+			<li><a href="work.html">施工実績</a> | </li>
+			<li><a href="recruit.html">採用情報</a> | </li>
+			<li><a href="contact.html">お問い合わせ</a> | </li>
+			<!-- <li><a href="form.php">お問い合わせ</a> | </li> -->
+			<li><a href="faq.html">よくある質問</a></li>
+			</ul>
+	</div>
 <small>Copyright&copy; <a href="index.html">(株)kpaint</a> All Rights Reserved.</small>
 <span class="pr">《<a href="http://template-party.com/" target="_blank">Web Design:Template-Party</a>》</span>
 </footer>
