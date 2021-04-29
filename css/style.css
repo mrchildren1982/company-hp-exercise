@@ -107,8 +107,12 @@ header .tel span {
 }
 /*電話番号に自動リンクが貼られる環境用（タブレットやスマートフォンなど）の設定*/
 header .tel a {
-	color: #f28900;		/*文字色*/
+	color: #000;	
 	text-decoration: none;
+}
+
+header .tel:hover {
+	opacity:.6;
 }
 
 /*ヘッダー右側のアイコン類*/
@@ -414,11 +418,19 @@ padding-left: 10px;
 	float: left;
 }
 
+/* #my_facebook { */
+	/* float: left;	左に回り込み */
+	/* width: 24%;		 */
+	/* width:120%; */
+	/* background: #fff;	背景色 */
+/* } */
+
 #mrchildkun {
 	margin:1px auto;
 	height: 300px;
 	width: 300px;
 }
+
 
 .kojichu {
 	/* display: inline;
@@ -429,6 +441,13 @@ padding-left: 10px;
 
 	height: 150px;
 	width: 150px;
+
+
+}
+
+.kojichu:hover {
+	transform:scale(1.2);
+	transition-duration: 0.3s;
 }
 
 .paint_work_back {
@@ -513,6 +532,13 @@ footer .pr {
 	font-size: 80%;
 }
 
+.footer_nav li {
+	display:inline;
+}
+
+.footer_nav li:hover{
+	opacity:.6;
+}
 /*トップページ内「更新情報・お知らせ」ブロック
 ---------------------------------------------------------------------------*/
 /*ブロック全体の設定*/
@@ -705,6 +731,9 @@ ul.disc {padding: 0em 25px 1em;list-style: disc;}
 .phone {
 	display:none;
 }
+#shita {
+	display:none;
+}
 }
 
 
@@ -733,7 +762,9 @@ ul.disc {padding: 0em 25px 1em;list-style: disc;}
 .phone {
 	display:none;
 }
-
+#shita {
+	display:none;
+}
 }
 
 
@@ -752,6 +783,10 @@ ul.disc {padding: 0em 25px 1em;list-style: disc;}
 	display:flex ;
 } */
 
+
+#left {
+	display:none;
+}
 /* .logo {
     float: left;
  } */
@@ -859,6 +894,10 @@ section#new h2.close {
 /*その他
 ---------------------------------------------------------------------------*/
 body.s-n #sub {display: none;}
+
+.footer_nav li {
+	display:none;
+}
 
 }
 
