@@ -823,6 +823,11 @@ ul.disc {padding: 0em 25px 1em;list-style: disc;}
 	display: none;
 }
 
+
+#kojichu_usagi{
+	display: none;
+}
+
 #catch_copy {
 	font-size:10px;
 	padding-left:20px;
