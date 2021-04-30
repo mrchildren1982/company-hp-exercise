@@ -146,6 +146,7 @@ header .tel:hover {
 }
 
 .line-it-button {
+	display:inline;
 	padding-left:5px;
 }
 
