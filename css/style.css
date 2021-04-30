@@ -256,6 +256,24 @@ padding-left: 10px;
 	float:left;
 }
 
+.top_work {
+	display:flex;
+	margin: 0 auto;
+}
+
+.top-work_elem {
+	padding:10px;
+}
+.top_work_elem a{
+	text-decoration: none;
+}
+
+.top_work_elem:hover {
+	/* transform:scale(1.1);
+	transition-duration:0.3s; */
+	opacity:.6;
+}
+
 /*SERVICEページ
 ---------------------------------------------------------------------------*/
 /*各ボックスの設定（共通）*/
@@ -932,6 +950,10 @@ body.s-n #sub {display: none;}
 	display:none;
 }
 
+.top_work {
+	display:block;
+	padding:10px;
+}
 }
 
 
