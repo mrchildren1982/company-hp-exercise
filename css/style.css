@@ -251,6 +251,10 @@ padding-left: 10px;
 	float:left;
 } */
 
+.tp-comp {
+	display:flex;
+}
+
 .top-company-info {
 	display: inline;
 	float:left;
@@ -715,6 +719,7 @@ h2 span.option2 {
 
 .required{
 	color:red;
+	font-weight:normal;
 }
 
 .inq_title {

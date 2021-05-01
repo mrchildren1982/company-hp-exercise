@@ -7,11 +7,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="外壁塗装・屋根塗装はkpaintにおまかせ!">
 <meta name="keywords" content="久喜市,加須市,塗装工事,屋根工事,太陽光設置,防水工事">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/slide.css">
 <link rel="stylesheet" href="css/fixmenu.css">
 <link rel="icon" type="image/x-icon" href="images/kpaint.png">
 <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
 <script type="text/javascript" src="js/openclose.js"></script>
 <script type="text/javascript" src="js/fixmenu.js"></script>
 <!--[if lt IE 9]>
@@ -53,8 +57,8 @@ body.is-fixed #contents {padding-top: 0;}
 <li><a href="service.html">業務内容</a></li>
 <li><a href="work.html">施工実績</a></li>
 <li><a href="recruit.html">採用情報</a></li>
-<li><a href="contact.html">お問い合わせ</a></li>
-<!-- <li><a href="form.php">お問い合わせ</a></li>	 -->
+<!-- <li><a href="contact.html">お問い合わせ</a></li> -->
+<li><a href="form.php">お問い合わせ</a></li>	
 <li><a href="faq.html">よくある質問</a></li>
 </ul>
 </nav>
@@ -128,7 +132,7 @@ body.is-fixed #contents {padding-top: 0;}
 			</a>
 	</div>
 	<div class="top_work_elem">
-		<a href="roof.html">
+		<a href="renovate.html">
 			<img src="images/naisou.jpg" alt="内装塗装" class="img">
 			<div class="text setsumei">
 			<h4>その他塗装</h4>
@@ -136,6 +140,7 @@ body.is-fixed #contents {padding-top: 0;}
 			</div>
 			</a>
 	</div>
+	
 </div>
 <!-- <h2>トップページ</h2> -->
 
@@ -156,19 +161,10 @@ body.is-fixed #contents {padding-top: 0;}
 	</div>
 <!-- </p> -->
 </section>
-<section>
-	<h2>企業情報</h2>
-
-	<h3>アクセス</h3>
-	<div class="top-company">
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.7362339250913!2d139.65275801475852!3d36.09991731450422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018b89b60eb2041%3A0x43356350a0ebf60f!2z6bey5a6u56We56S-!5e0!3m2!1sja!2sjp!4v1617922988503!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>	
-</section>
 <!-- <section>
 	<h2>企業情報</h2>
-
-	<h3>アクセス</h3>
-	<div class="top-company">
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.7362339250913!2d139.65275801475852!3d36.09991731450422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018b89b60eb2041%3A0x43356350a0ebf60f!2z6bey5a6u56We56S-!5e0!3m2!1sja!2sjp!4v1617922988503!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	<div  class="tp-comp"> -->
+	<!-- <div>
 	<h3>会社概要</h3>
 	<div class="top-company-info">
 		<table class="ta1">
@@ -200,13 +196,28 @@ body.is-fixed #contents {padding-top: 0;}
 			<tr>
 			</table>
 		</div>
-	<div class="top-company-info" id="fb-page-img">
-		<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fnike&tabs=timeline&width=400&height=550&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"  height="550" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> 
+	</div> -->
+	<!-- <div>
+		<h3>アクセス</h3>
+		<div class="top-company">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.7362339250913!2d139.65275801475852!3d36.09991731450422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018b89b60eb2041%3A0x43356350a0ebf60f!2z6bey5a6u56We56S-!5e0!3m2!1sja!2sjp!4v1617922988503!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>	
+		</div>
+		</div>
+		</div> -->
+<!-- </section> -->
+
+<section>
+	<h2>企業情報</h2>
+	<div>
+	<div>
+	<h3>アクセス</h3>
+	<div class="top-company">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.7362339250913!2d139.65275801475852!3d36.09991731450422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018b89b60eb2041%3A0x43356350a0ebf60f!2z6bey5a6u56We56S-!5e0!3m2!1sja!2sjp!4v1617922988503!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>	
 	</div>
+	</div>
+	</div>
+</section>
 
-</div>
-
-</section> -->
 <section id="new">
 	<h2 id="newinfo_hdr" class="close">お知らせ Information</h2>
 	<dl id="newinfo">
@@ -257,6 +268,31 @@ body.is-fixed #contents {padding-top: 0;}
 		<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fnike&tabs=timeline&width=400&height=550&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"  height="550" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> 
 	</div>
 </nav>
+
+<nav>
+	<div class="slider top_work">
+		<div class="top_work_elem">
+		<a href="paint.html">
+			<img src="images/coating_ope1.jpg" alt="外壁塗装" class="img" title="外壁塗装">
+			</a>
+		</div>
+		<div class="top_work_elem">
+			<a href="water_registant.html">
+				<img src="images/coating_ope3.jpg" alt="防水工事" class="img" title="防水工事">
+				</a>
+		</div>
+		<div class="top_work_elem">
+			<a href="roof.html">
+				<img src="images/roof_paint_ope.jpg" alt="屋根塗装" class="img" title="屋根塗装">
+				</a>
+		</div>
+		<div class="top_work_elem">
+			<a href="renovate.html">
+				<img src="images/naisou.jpg" alt="内装塗装" class="img" title="内装塗装">
+				</a>
+		</div>
+	</div>
+</nav>
 </div>
 <!--/sub-->
 </div>
@@ -300,6 +336,16 @@ if (OCwindowWidth() <= 900) {
 }
 </script>
 <script type="text/javascript">
+  $(document).ready(function(){
+      $('.slider').bxSlider({
+		  auto:true,
+		  speed:1000,
+		  captions: true,
+		  touchEnabled:false
+	  }
+
+	  );
+    });
 	$(".kojichu").click(()=> {
 		$("#kojichu_inu").attr("src","images/yaruki_moetsuki_businessman.png").attr("alt","燃え尽きた人");
 		$("#kojichu_neko").attr("src","images/science_hakase_shippai.png").attr("alt","実験失敗");
