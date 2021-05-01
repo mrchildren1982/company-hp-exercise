@@ -276,6 +276,25 @@ padding-left: 10px;
 
 .greeting {
 	display:flex;
+	
+}
+
+.daihyou {
+	 font-family: "HG行書体"; 
+	 font-size:140%;
+}
+
+.price_hyou>tbody>tr>td{
+	text-align:center;
+}
+
+.price_hyou>thead>tr>th{
+	background-color:#faf8f8;
+}
+
+
+.price_hyou>tbody>tr>th {
+	background-color: #faf8f8;
 }
 /*SERVICEページ
 ---------------------------------------------------------------------------*/
@@ -957,6 +976,11 @@ body.s-n #sub {display: none;}
 	display:block;
 	padding:10px;
 }
+
+.greeting {
+	display:inline;
+}
+
 }
 
 
