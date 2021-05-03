@@ -795,6 +795,12 @@ ul.disc {padding: 0em 25px 1em;list-style: disc;}
 ------------------------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (min-width:1200px){
 
+.logo_shamei {
+	font-size:200%;
+	text-decoration:none;
+	margin-top:120px;
+}
+
 /*SERVICEページ
 ---------------------------------------------------------------------------*/
 /*３カラムタイプのボックスの高さ*/
@@ -912,7 +918,17 @@ ul.disc {padding: 0em 25px 1em;list-style: disc;}
 	display:none;
 }
 
+/*ロゴ画像*/
+#logo img {
+	width: 200px;	/*画像幅*/
+	top: 38px;	/*上から38pxの場所に配置*/
+	height:70%;
+	
+}
 
+.logo_shamei {
+	display:none;
+}
 
 /*メインメニュー
 ---------------------------------------------------------------------------*/
@@ -1021,10 +1037,11 @@ body.s-n #sub {display: none;}
 /*ヘッダー（ロゴが入った最上段のブロック）
 ---------------------------------------------------------------------------*/
 /*ロゴ画像*/
-#logo img {
+/* #logo img {
 	width: 200px;	/*画像幅*/
 	top: 38px;	/*上から38pxの場所に配置*/
-}
+	
+} */
 
 .phone {
 	display:none;
@@ -1047,7 +1064,14 @@ body.s-n #sub {display: none;}
 	top: 15px;	/*上から15pxの場所に配置*/
 	/* display:block; */
 	/* margin: 0 auto; */
-	/* max-height:50%; */
+	height:70%;
+}
+
+.logo_shamei {
+	/* font-size:150%;
+	text-decoration:none;
+	margin-top:120px; */
+	display:none;
 }
 /*ヘッダー右側のアイコン類*/
 #h-nav {
