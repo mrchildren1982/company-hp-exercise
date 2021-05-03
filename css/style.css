@@ -1047,6 +1047,7 @@ body.s-n #sub {display: none;}
 	top: 15px;	/*上から15pxの場所に配置*/
 	/* display:block; */
 	/* margin: 0 auto; */
+	/* max-height:50%; */
 }
 /*ヘッダー右側のアイコン類*/
 #h-nav {
