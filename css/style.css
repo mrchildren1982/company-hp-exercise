@@ -531,6 +531,11 @@ padding-left: 10px;
 .before-after {
 	display:flex;
 }
+
+.before_after_arrow {
+	padding-top:100px;
+	/* display:float; */
+}
 /*サブコンテンツ内のメニュー
 ---------------------------------------------------------------------------*/
 /*メニュー全体の設定*/
@@ -1033,6 +1038,10 @@ body.s-n #sub {display: none;}
 	display:inline;
 }
 
+.before_after_arrow {
+	padding-top:80px;
+	/* display:float; */
+}
 }
 
 
@@ -1057,6 +1066,11 @@ body.s-n #sub {display: none;}
 .tel {
 	/* clear:left; */
 	display:none;
+}
+
+.before_after_arrow {
+	padding-top:60px;
+	/* display:float; */
 }
 }
 /*画面幅480px以下の設定
@@ -1173,6 +1187,10 @@ tel {
 	font-weight: bold;
   }
 
+  .before_after_arrow {
+	padding-top:50px;
+	/* display:float; */
+}
   
 /*テーブル
 ---------------------------------------------------------------------------*/
