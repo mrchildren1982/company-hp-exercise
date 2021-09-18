@@ -132,9 +132,9 @@ $pref_list = array(
 );
 //------------------------------------------------
 // magic_quotes_gpc対策
-if (get_magic_quotes_gpc()) {
-	$_REQUEST = safeStripSlashes($_REQUEST);
-}
+// if (get_magic_quotes_gpc()) {
+// 	$_REQUEST = safeStripSlashes($_REQUEST);
+// }
 //
 $form_input = array(
 	"item1" => array("title" => "お名前", "name" => "item1", "func" => "2", "require" => "1", "check" => "1",),
@@ -246,12 +246,12 @@ foreach ($form_input as $val) {
 	}
 }
 // メール一致
-if (count($mail_value) == 2) {
-	if ($mail_value[0] != $mail_value[1]) {
-		$msg[$mail_field[0]] = $mail_title[0] . "が一致していません";
-		$msg[$mail_field[1]] = $mail_title[0] . "が一致していません";
-	}
-}
+// if (count($mail_value) == 2) {
+// 	if ($mail_value[0] != $mail_value[1]) {
+// 		$msg[$mail_field[0]] = $mail_title[0] . "が一致していません";
+// 		$msg[$mail_field[1]] = $mail_title[0] . "が一致していません";
+// 	}
+// }
 if (!$_REQUEST["mode"]) {
 	$mode = "form";
 } else if ($_REQUEST["mode"] == "reinput") {
